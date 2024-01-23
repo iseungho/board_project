@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+
+  div {
+    input {
+      padding: 8px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 8px 16px;
+      font-size: 16px;
+      border: 1px solid black;
+      cursor: pointer;
+      align-self: flex-end;
+    }
+  }
+
+  ul {
+    width: 50%;
+    margin: auto;
+
+    li {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:hover {
+        background-color: #f5f5f5;
+      }
+
+      input {
+        flex: auto;
+        font-size: 14px;
+      }
+
+      button {
+        margin-left: 10px;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid black;
+        cursor: pointer;
+      }
+    }
+  }
+}
